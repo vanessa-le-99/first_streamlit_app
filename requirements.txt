@@ -1,4 +1,2 @@
 #requirement.txt
-snowflake-connector-python[pandas]
-charset-normalizer==2.0.12
-snowflake-connector-python==2.7.9
+snowflake-connector-python
