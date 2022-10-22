@@ -42,7 +42,9 @@ try:
 
 except URLError as e:
     streamlit.error()
-      
+
+my_cur.execute("insert into fruit_load_list values ('from streamlit')")
+               
 #dont run anything
 streamlit.stop()
 
